@@ -1,3 +1,8 @@
+<h2 align="center" color="#7FFFD4"><text color="#FFFF00">Importante!</text> O seu projeto precisa estar com a ultima versão do Github.
+<br/>
+Use todos os comandos dentro da pasta do seu projeto</h2>
+
+
 <h3 align="center">yarn global add heroku || npm install --global heroku</h3>
 <p align="center">- Baixar heroku CLI</p>
 
