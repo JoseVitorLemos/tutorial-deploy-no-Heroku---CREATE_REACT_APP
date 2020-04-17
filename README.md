@@ -15,7 +15,7 @@
 <h3 align="center">heroku create NOME_PROJETO_UNICO --buildpack mars/create-react-app</h3>
 <p align="center">- Acesse o link do heroku buildpack para mais informações
 <br/>
-https://github.com/mars/create-react-app-buildpack ctrl+F: Quick start</p>
+https://github.com/mars/create-react-app-buildpack <b>ctrl+F: Quick start</b></p>
 
 <h3 align="center">Crie um arquivo chamado <b>static.json</b> na raiz do projeto e adicione as seguintes configurações:</h3>
 
