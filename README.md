@@ -4,7 +4,7 @@
 <br/>
 <h1 align="center">
   
- <h3 align="center">Siga os passos abaixo e tudo deve funcionar</h3>
+ <h3 align="center">!!Siga os passos abaixo e tudo deve funcionar!!</h3>
 
 <h3 align="center">yarn global add heroku || npm install --global heroku</h3>
 <p align="center">- Baixar heroku CLI</p>
@@ -17,18 +17,18 @@
 <br/>
 https://github.com/mars/create-react-app-buildpack ctrl+F: Quick start</p>
 
-<h3 align="center">Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
+<h3 align="center">Crie um arquivo chamado <b>static.json</b> na raiz do projeto e adicione as seguintes configurações:</h3>
 
-                            {
+<p align="center">
+                              {
                                 "root": "build/",
                                 "routes": {
                                     "/**": "index.html"
                                 }
                             }
 
-</h3>
-
-<p align="center">- "root": Informa ao heroku que a build será executada sempre que iniciar o projeto</p>
+"root": Informa ao heroku que a build será executada sempre que iniciar o projeto
+</p>
 
 <h3 align="center">git remote</h3>
 <p align="center">- demonstra todas as branchs do projeto</p>
