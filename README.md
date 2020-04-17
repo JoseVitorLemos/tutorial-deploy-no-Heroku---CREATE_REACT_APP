@@ -11,12 +11,12 @@
 ctrl+F: Quick start</h3>
 <p align="center">- Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
 
-    {
-        "root": "build/",
-        "routes": {
-            "/**": "index.html"
-        }
-    }
+                                                {
+                                                    "root": "build/",
+                                                    "routes": {
+                                                        "/**": "index.html"
+                                                    }
+                                                }
 
 </p>
 
