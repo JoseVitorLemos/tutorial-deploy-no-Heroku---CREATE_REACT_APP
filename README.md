@@ -19,16 +19,14 @@ https://github.com/mars/create-react-app-buildpack ctrl+F: Quick start</p>
 
 <h3 align="center">Crie um arquivo chamado <b>static.json</b> na raiz do projeto e adicione as seguintes configurações:</h3>
 
-<p align="center">
-                              {
+                            {
                                 "root": "build/",
                                 "routes": {
                                     "/**": "index.html"
                                 }
                             }
 
-"root": Informa ao heroku que a build será executada sempre que iniciar o projeto
-</p>
+<p align="center">"root": Informa ao heroku que a build será executada sempre que iniciar o projeto</p>
 
 <h3 align="center">git remote</h3>
 <p align="center">- demonstra todas as branchs do projeto</p>
