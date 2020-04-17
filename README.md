@@ -1,8 +1,8 @@
 <h1 align="center">important!¹ Use todos os comandos dentro da pasta do seu projeto</h1>
 
-<h3 align="center">important!² O seu projeto precisa estar atualizado, na ultima versão presente no GitHub
+<h1 align="center">important!² O seu projeto precisa estar atualizado, na ultima versão presente no GitHub
 <br/>
-<h3 align="center">
+<h1 align="center">
   
  <h3 align="center">Siga os passos abaixo e tudo deve funcionar</h3>
 
