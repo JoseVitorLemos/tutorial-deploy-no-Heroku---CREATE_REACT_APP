@@ -1,7 +1,10 @@
-<h1 align="center">important! Use todos os comandos dentro da pasta do seu projeto</h1>
+<h1 align="center">important!¹ Use todos os comandos dentro da pasta do seu projeto</h1>
 
-<h3 align="center">O seu projeto precisa estar atualizado, na ultima versão presente no GitHub
+<h3 align="center">important!² O seu projeto precisa estar atualizado, na ultima versão presente no GitHub
 <br/>
+<h3 align="center">
+  
+ <h3 align="center">Siga os passos abaixo e tudo deve funcionar</h3>
 
 <h3 align="center">yarn global add heroku || npm install --global heroku</h3>
 <p align="center">- Baixar heroku CLI</p>
@@ -10,11 +13,11 @@
 <p align="center">- Autentica sua conta heroku onde irá fazer o deploy</p>
 
 <h3 align="center">heroku create NOME_PROJETO_UNICO --buildpack mars/create-react-app</h3>
-<p align="center">- Acesse o link do heroku buildpack para mais informações</p>
+<p align="center">- Acesse o link do heroku buildpack para mais informações
+<br/>
+https://github.com/mars/create-react-app-buildpack ctrl+F: Quick start</p>
 
-<h3 align="center">https://github.com/mars/create-react-app-buildpack
-ctrl+F: Quick start</h3>
-<p align="center">- Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
+<h3 align="center">Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
 
                             {
                                 "root": "build/",
@@ -23,7 +26,7 @@ ctrl+F: Quick start</h3>
                                 }
                             }
 
-</p>
+</h3>
 
 <p align="center">- "root": Informa ao heroku que a build será executada sempre que iniciar o projeto</p>
 
