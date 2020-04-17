@@ -33,5 +33,8 @@ ctrl+F: Quick start</h3>
 <br/>
 # git push heroku master</p>
 
+<h3 align="center">heroku config:set NODE_MODULES_CACHE=false</h3>
+<p align="center">Para desabilitar caches das dependencias e evitar erros.</p>
+    
 <h3 align="center">heroku open</h3>
 <p align="center">- Irá abrir seu projeto no navegador</p>
