@@ -1,4 +1,4 @@
-<h2 align="center" color="#7FFFD4"><text color="#FFFF00">Importante!</text> O seu projeto precisa estar com a ultima versão do Github.
+<h2 align="center">O seu projeto precisa estar com a ultima versão do Github.
 <br/>
 Use todos os comandos dentro da pasta do seu projeto</h2>
 
@@ -16,21 +16,21 @@ Use todos os comandos dentro da pasta do seu projeto</h2>
 ctrl+F: Quick start</h3>
 <p align="center">- Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
 
-                                                {
-                                                    "root": "build/",
-                                                    "routes": {
-                                                        "/**": "index.html"
-                                                    }
-                                                }
+                {
+                    "root": "build/",
+                    "routes": {
+                        "/**": "index.html"
+                    }
+                }
 
 </p>
 
-<p align="center">- "root" = Informa ao heroku que a build será executada sempre que iniciar o projeto</p>
+<p align="center">- "root": Informa ao heroku que a build será executada sempre que iniciar o projeto</p>
 
 <h3 align="center">git remote</h3>
 <p align="center">- demonstra todas as branchs do projeto</p>
 
-<h3 align="center">- Agora basta fazer o primeiro commit da aplicação:</h3>
+<h3 align="center">Agora basta fazer o primeiro commit e subir sua aplicação no Heroku</h3>
 <p align="center">
 # git add --all
 <br/>
@@ -39,7 +39,9 @@ ctrl+F: Quick start</h3>
 # git push heroku master</p>
 
 <h3 align="center">heroku config:set NODE_MODULES_CACHE=false</h3>
-<p align="center">Para desabilitar caches das dependencias e evitar erros.</p>
+<p align="center">Para desabilitar caches das dependencias e evitar erros.
+<br/>
+https://devcenter.heroku.com/articles/nodejs-support</p>
     
 <h3 align="center">heroku open</h3>
 <p align="center">- Irá abrir seu projeto no navegador</p>
