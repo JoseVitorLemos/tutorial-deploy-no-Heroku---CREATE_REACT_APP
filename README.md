@@ -1,7 +1,7 @@
-<h2 align="center">O seu projeto precisa estar com a ultima versão do Github.
-<br/>
-Use todos os comandos dentro da pasta do seu projeto</h2>
+<h1 align="center">important! Use todos os comandos dentro da pasta do seu projeto</h1>
 
+<h3 align="center">O seu projeto precisa estar atualizado, na ultima versão presente no GitHub
+<br/>
 
 <h3 align="center">yarn global add heroku || npm install --global heroku</h3>
 <p align="center">- Baixar heroku CLI</p>
@@ -16,12 +16,12 @@ Use todos os comandos dentro da pasta do seu projeto</h2>
 ctrl+F: Quick start</h3>
 <p align="center">- Crie um arquivo chamado static.json na raiz do projeto e adicione as seguintes configurações:
 
-                {
-                    "root": "build/",
-                    "routes": {
-                        "/**": "index.html"
-                    }
-                }
+                            {
+                                "root": "build/",
+                                "routes": {
+                                    "/**": "index.html"
+                                }
+                            }
 
 </p>
 
